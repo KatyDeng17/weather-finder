@@ -11,6 +11,7 @@ class Weather extends React.Component{
         {this.props.country &&  <p>country: {this.props.country}</p>}     
         {this.props.humidity &&  <p>humidity: {this.props.humidity}</p>}  
         {this.props.description &&  <p>description: {this.props.description}</p>}   
+        {this.props.error &&  <p>Error: {this.props.error}</p>}  
       </div>
     )
   }
