@@ -1,12 +1,21 @@
 import React from 'react';
-class Titles extends React.Component {
-   render(){
-     return(
-       <div>
-         <h1> Weather Finder </h1>
+// class Titles extends React.Component {
+//    render(){
+//      return(
+//        <div>
+//          <h1> Weather Finder </h1>
+//          <p> Find out temperature, condition, and more...</p>
+//        </div> 
+//      )
+//    }
+// }
+
+//changing to stateless component
+
+const Titles =()=>(
+     <div>
+        <h1> Weather Finder </h1>
          <p> Find out temperature, condition, and more...</p>
-       </div> 
-     )
-   }
-}
+    </div> 
+);
 export default Titles;
